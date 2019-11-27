@@ -228,7 +228,7 @@ train_data.income.value_counts()
 # %%
 train_data_upsampled = resample(train_data_less,
                                 replace=True,
-                                n_samples=21024,
+                                n_samples=22654,
                                 random_state=123)
 
 # 将重采样的数据添加回去
